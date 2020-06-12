@@ -5,18 +5,17 @@ metadata:
   name: helloworld-rules
 spec:
   rules:
-  - host: helloworld-v1.example.com
+  - host: irfan1.inseyafathima.xyz
     http:
       paths:
       - path: /
         backend:
-          serviceName: helloworld-v1
+          serviceName: irfan1
           servicePort: 80
-  - host: helloworld-v2.example.com
+  - host: irfan2.inseyafathima.xyz
     http:
       paths:
       - path: /
         backend:
-          serviceName: helloworld-v2
+          serviceName: irfan2
           servicePort: 80
-
